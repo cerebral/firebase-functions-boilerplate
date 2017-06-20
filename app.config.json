@@ -1,0 +1,6 @@
+{
+  "scripts": [
+    "common.js",
+    "main.js"
+  ]
+}

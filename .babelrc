@@ -1,0 +1,25 @@
+{
+  "presets": ["es2015", "react"],
+  "env": {
+    "development": {
+      "plugins": [
+        ["module-resolver", {
+          "alias": {
+            "config": "./app.config.json"
+          }
+        }],
+        ["transform-define", "./.babel.rc.define.development.js"]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["module-resolver", {
+          "alias": {
+            "config": "./src/app.config.json"
+          }
+        }],
+        ["transform-define", "./.babel.rc.define.production.js"]
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "express": "^4.15.3",
+    "firebase": "^4.1.1",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "preact": "^8.1.0",
+    "preact-render-to-string": "^3.6.3",
+    "firebase-functions-mock": "^1.0.0",
+    "body-parser": "^1.17.2"
+  },
+  "private": true
+}

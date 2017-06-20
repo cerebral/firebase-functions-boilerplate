@@ -1,0 +1,16 @@
+sudo: false
+language: node_js
+node_js: '6'
+cache:
+  directories:
+  - node_modules
+notifications:
+  email: false
+script:
+  - npm run deploy
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token:
+    secure: "YOUR_TOKEN"
+  project: "production"
